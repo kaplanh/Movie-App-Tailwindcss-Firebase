@@ -4,6 +4,8 @@
 [Live Link](https://movie-app-tailwindcss-firebase.vercel.app/)
 
 ![movie app tailwind   firebase](https://github.com/kaplanh/Movie-App-Tailwindcss-Firebase/assets/101884444/3e781534-f59c-4334-a90c-c87ee50a1e4e)
+![movie app tailwind   firebase](https://github.com/kaplanh/Movie-App-Tailwindcss-Firebase/assets/101884444/7fe4400d-2abd-49d4-8a4c-8cd8f6652fe0)
+
 
 Project aims to create a Movie App.
 

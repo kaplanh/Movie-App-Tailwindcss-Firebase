@@ -45,9 +45,10 @@ const AuthContextProvider = ({ children }) => {
                 //* key ve value değerleri aynı ise sadece key değerini yazabiliriz
                 displayName,
             });
-            // console.log(userCredential);
-            navigate("/");
-            toastSuccessNotify("Registered successfully!");
+            console.log(userCredential);
+            navigate("/");//kullanici name,email,password bilgilerini girince firebasedb ye kayit yapildiysa home yönlendiriyoruz
+           
+            toastSuccessNotify('{displayName} Registered successfully!');
         } catch (error) {
             toastErrorNotify(error.message);
         }
@@ -65,7 +66,8 @@ const AuthContextProvider = ({ children }) => {
                 password
             );
             navigate("/");
-            toastSuccessNotify("Logged in successfully!");
+            navigate("/"); //kullanici login sayfasinda email,password bilgilerini girince ve firebase databasede kayitli ise home yönlendir
+            toastSuccessNotify('{displayName} Logged in successfully!');
             console.log(userCredential);
         } catch (error) {
             toastErrorNotify(error.message);

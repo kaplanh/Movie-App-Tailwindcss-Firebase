@@ -13,6 +13,9 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [
+        // https://flowbite.com/docs/getting-started/quickstart/
+        //  require('flowbite/plugin')
+    ],
     darkMode: "class",
 };

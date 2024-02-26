@@ -4,7 +4,7 @@ import Main from "../pages/Main";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import MovieDetail from "../pages/MovieDetail";
-import { Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 import PrivateRouter from "./PrivateRouter";
 
 const AppRouter = () => {
@@ -19,6 +19,8 @@ const AppRouter = () => {
                     <Route path="/details/:id" element={<MovieDetail />} />
                 </Route>
             </Routes>
+
+            
         </>
     );
 };

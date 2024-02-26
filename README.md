@@ -1,7 +1,9 @@
 
 # Movie App (Tailwind & Firebase)
 
-## Description
+[Live Link]()
+
+![movie app tailwind   firebase](https://github.com/kaplanh/Movie-App-Tailwindcss-Firebase/assets/101884444/3e781534-f59c-4334-a90c-c87ee50a1e4e)
 
 Project aims to create a Movie App.
 

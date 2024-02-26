@@ -44,7 +44,7 @@ export default function Navbar() {
                                                 currentUser?.photoURL || avatar
                                             }
                                             alt="user"
-                                            referrerPolicy="no-referrer"
+                                            referrerPolicy="no-referrer"// harici linklerdeki uyari mesajini önlemek icin
                                         />
                                     </Menu.Button>
                                 </div>
@@ -110,6 +110,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </Disclosure>
+            {/* !Navbar'i fixledigimiz icin altina gelen componentler header in altinda klamasin diye ici bos sabit bir yüksekligi olan div koyarak bu problemi cözmüs olduk */}
             <div className="h-[55px]"></div>
         </>
     );

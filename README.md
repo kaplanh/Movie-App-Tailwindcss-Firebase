@@ -1,5 +1,3 @@
-<!-- <p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p> -->
 
 # Movie App (Tailwind & Firebase)
 
@@ -7,9 +5,6 @@
 
 Project aims to create a Movie App.
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
@@ -21,38 +16,46 @@ Movie App (folder)
 ├── public
 │     └── index.html
 ├── src
+│    ├── assets
+│    │     └── icons
+│    │     └── loadingGif
 │    ├── auth
 │    │     └── firebase.js
 │    ├── components
-│    │     ├── MovieCard.js
-│    │     └── Navbar.js
+│    │     ├── MovieCard.jsx
+│    │     └── Navbar.jsx
+│    │     └── Switch.jsx
+│    │     └── VideoSection.jsx
+│    │     
 │    ├── context
 │    │     └── AuthContext.js
+│    │     └── MovieContext.js
+│    ├
+│    ├── helpers
+│    │     └── ToastNotify.js.js
 │    ├── pages
 │    │     ├── Login.js
 │    │     ├── Register.js
 │    │     ├── Main.js
 │    │     └── MovieDetail.js
 │    ├── router
-│    │     └── Router.js
+│    │     └── AppRouter.js
+│    │     └── PrivateRouter.js
 │    ├── App.js
-│    ├── App.css
 │    ├── index.js
 │    └── index.css
+├── movie-app_structure.png
+├── .gitignore
 ├── package.json
-├── .env
 └── yarn.lock
+├── .env
+├── frontend.env
+├── tailwind.config.js
 ```
 
 ![Project Snapshot](movie-app_structure.png)
 
-## Expected Outcome
 
-![Project Snapshot](movie-app.gif)
-
-## Objective
-
-Build a Movie App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -64,9 +67,9 @@ Build a Movie App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, students will be able to;
+### At the end of the project, developers will be able to;
 
-- improve coding skills within HTML & CSS & JS & ReactJS.
+- improve coding skills within HTML & CSS & JS & ReactJS Tailwindcss and Firebase.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
@@ -199,26 +202,6 @@ sendPasswordResetEmail(auth, email)
 - Step 4 : Signup `https://www.themoviedb.org/documentation/api` and get API key. In order to get data use `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`, to search movies use `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`, to get movie details use `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}` and to get video key use `https://api.themoviedb.org/3/movie/${id}/videos?api_key=${API_KEY}`. Use `https://image.tmdb.org/t/p/w1280${poster_path}` for image `src`.
 
 - Step 5: You can use css frameworks like Bootstrap, Semantic UI, Material UI.
-
-- Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -447,3 +430,9 @@ daisyui.com==>  https://daisyui.com/components/card/
 
 ##For VS Code Extation
 https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+## Notes
+
+- You can add additional functionalities to your app.
+
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
